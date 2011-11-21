@@ -6,5 +6,3 @@ Use this function to make URLs more standard for insertion into your database.
 That way, when you search, you can ensure standardization.
 
 Fully PHP 4 / PHP 5 compatible 
-
-Drop it into your class, or your app, I don't mind
