@@ -14,4 +14,4 @@ URLs I've tested:
 http://www.google.com
 http://www.google.com/
 http://www.bbc.co.uk/news/world/us_and_canada/
-http://localhost/subfolder/some_page
+http://localhost/subfolder/some_page.php?variable=value&something=value2#fragmenthere=somethingelse
