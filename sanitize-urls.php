@@ -13,11 +13,7 @@
 		
 		$exploded_url = parse_url( $url );
 		// Set the scheme. Default is HTTP
-		if( empty( $exploded_url["scheme"] ) ) {
-			$new_url["scheme"] = $scheme;
-		} else {
-			$new_url["scheme"] = $exploded_url["scheme"];
-		}
+		$new_url["scheme"] = ( empty( $exploded_url["scheme"] ) ? $scheme : $exploded_url["scheme"] );
 		
 		// If host is not set
 		if( empty( $exploded_url["host"] ) ) {
