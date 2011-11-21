@@ -5,6 +5,9 @@ Author URI: http://www.timothymahoney.com
 Use this function to make URLs more standard for insertion into your database. 
 That way, when you search, you can ensure standardization.
 
+Adds http (or whatever you feel like using as a default) to the beginning
+Adds www to anything without a subdomain
+
 Fully PHP 4 / PHP 5 compatible 
 
 URLs I've tested:
