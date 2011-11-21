@@ -6,3 +6,9 @@ Use this function to make URLs more standard for insertion into your database.
 That way, when you search, you can ensure standardization.
 
 Fully PHP 4 / PHP 5 compatible 
+
+URLs I've tested:
+http://www.google.com
+http://www.google.com/
+http://www.bbc.co.uk/news/world/us_and_canada/
+http://localhost/subfolder/some_page

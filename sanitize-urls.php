@@ -48,7 +48,7 @@
 		}
 		
 		// Take care of the main domain
-		if( is_array( $exploded_base_domain ) > 1 ) {
+		if( is_array( $exploded_base_domain ) ) {
 			$domain_only = array_shift( $exploded_base_domain );
 			$new_url["domain_path"] = implode( "/", $exploded_base_domain );
 		} else {
