@@ -15,7 +15,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-
+ 
 /**
  * Use this function to make URLs more standard for insertion into your database. 
  * That way, when you search, you can ensure standardization.
